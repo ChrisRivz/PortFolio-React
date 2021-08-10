@@ -1,0 +1,48 @@
+body{
+
+    background-color: #f6f7f9;
+}
+
+.container-1{
+
+    margin: 4rem 1rem 1rem 4rem;
+
+}
+
+.container-1 h1{
+
+    font-weight: 700;
+}
+
+.container-1 p{
+
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #858E9B;
+}
+
+.container-1 .card
+{
+    position: absolute;
+    width: 10rem;
+    right: 55%;
+    top: 50%;
+    border-radius: 0.4rem;
+    border: unset;
+}
+
+.col-img {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.image-profile{
+
+    width: 24rem;
+
+}
+
+.shadow-lg{
+
+    box-shadow: 0rem 0.25rem 1.75rem rgb(30 34 40 / 7%) !important;
+}
