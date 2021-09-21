@@ -3,46 +3,110 @@ body{
     background-color: #f6f7f9;
 }
 
-.container-1{
+.Certificates-section{
 
-    margin: 4rem 1rem 1rem 4rem;
+    padding-top: 2rem;
+}
+.Home-section, .Biography-section, .Certificates-section, .Experience-section, .Portfolio-section{
+
+    border-bottom: 1px solid whitesmoke;
 
 }
 
-.container-1 h1{
+.Biography-section, .Certificates-section{
 
-    font-weight: 700;
+    background-color: #F7F7FF;
 }
 
-.container-1 p{
+.Row-certifications, .Row-experience{
 
-    font-size: 1.25rem;
-    line-height: 1.5;
-    color: #858E9B;
+    padding-top: 1rem !important;
+
 }
 
-.container-1 .card
-{
-    position: absolute;
-    width: 10rem;
-    right: 55%;
-    top: 50%;
-    border-radius: 0.4rem;
-    border: unset;
+.Container-certifications, .Container-experience, .Container-portfolio{
+
+    padding-top: 3rem;
+    padding: 5rem !important;
 }
 
-.col-img {
-    text-align: center;
-    margin: 0 auto;
+.Container-home, .Container-profile, .Container-certifications, .Container-experience{
+
+    padding-bottom: 2rem;
+}
+
+.Container-portfolio h4{
+
     padding-bottom: 1rem;
+}
+
+.Home-info, .Biography-info{
+
+    padding: 5rem;
+}
+
+.Home-info h4{
+
+    color: #243e69;
+    
+}
+
+.Home-info button{
+
+    background-color: black;
+    border-color: black;
+    padding: 1rem;
+
+}
+
+.Home-info button:hover{
+    background-color: #f6f7f9;
+    color: black;
+    border-color: black;
+}
+.about-me-initial{
+
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.about-me-p{
+
+    color: #979797;
+}
+
+.col-image, .col-image-2{
+
+    text-align: center;
+}
+
+.col-image-2{
+
+    padding-top: 6rem;
 }
 .image-profile{
 
-    width: 24rem;
+    width: 30rem;
 
 }
 
-.shadow-lg{
+.nav {
 
-    box-shadow: 0rem 0.25rem 1.75rem rgb(30 34 40 / 7%) !important;
+    padding: 2rem !important;
 }
+.nav-link{
+
+    font-size: smaller;
+    color: black !important;
+    font-weight: 500;
+
+}
+
+.nav-link:hover{
+
+    color: #243e69 !important;
+
+}
+

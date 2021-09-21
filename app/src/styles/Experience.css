@@ -1,0 +1,23 @@
+.Card-experience{
+
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 25px !important;
+    background-color: #F7F7FF !important;
+    border:unset !important;
+    padding: 2rem;   
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.col-data-company h4{
+
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.span-experience{
+
+    background-color: #243e69 !important;
+    border-color: #243e69 !important;
+}

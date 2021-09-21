@@ -1,0 +1,23 @@
+
+.card-certification{
+
+    border-radius: 25px !important;
+    cursor: pointer !important;  
+    border: unset !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.card-certification:hover{
+
+    transform: translateY(-5px);
+}
+
+.card-boy-certification{
+
+    text-align: center;
+}
+
+.card-boy-certification-image {
+
+    width: 50% !important;
+}

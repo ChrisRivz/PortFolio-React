@@ -1,0 +1,39 @@
+.nav-social{
+
+    text-align: center;  
+    margin-top: 1rem;
+}
+
+.icon-social{
+
+    
+    background-color: #0b0b13;
+    color: #fff;
+    border-radius: 25px;
+    width: 3rem;
+    height: 3rem;
+    padding: 12px !important;
+    cursor: pointer;
+
+}
+.icon-social:hover{
+
+    background-color: #243e69;
+    transform: scale(1.1);
+}
+
+.fasocial{
+
+    font-size: 1.5rem;
+    margin: 0;    
+}
+
+.div-profile{
+
+    padding-top: 1.5rem !important;
+}
+
+.p-years{
+
+    margin: 0;
+}
