@@ -21,3 +21,11 @@
     background-color: #243e69 !important;
     border-color: #243e69 !important;
 }
+
+.accordion-button:not(.collapsed){
+
+    color: black  !important;
+    background-color: #E7F1FF !important;
+
+
+}

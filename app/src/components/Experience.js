@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card, Badge } from 'react-bootstrap'
+import { Container, Row, Col, Card, Badge, ListGroup, Accordion } from 'react-bootstrap'
 
 import '../styles/profile.css'
 import '../styles/Experience.css'
@@ -32,14 +32,31 @@ function Experience() {
                                     <Col className="col-data-company" sm={8}>
 
                                         <h4>FULLER MEXICO</h4>
-                                        <p>
-                                            Maintenance web application (. NET / CSS / Boostrap / HTML5 / Angular / SQL
-                                            Server 2018 )
-                                            Create new web application ( .NET / CSS / Boostrap / HTML5 / Ajax / Jquery /
-                                            Vue / SQL Sever 2018 )
-                                            Map and develop business process in Mexico and USA using SharePoint and .Net
-                                            API´S/Librerias: SCORM CLOUD - CONEKTA - PAYMENT - SMS - INTERTAL API'S
-                                            </p>
+                                        <Accordion defaultActiveKey="0">
+                                            <Accordion.Item eventKey="0">
+                                                <Accordion.Header>Main activites</Accordion.Header>
+                                                <Accordion.Body>
+
+                                                    <ListGroup variant="flush">
+                                                        <ListGroup.Item>Built new applications using Angular JS / React JS / VueJS</ListGroup.Item>
+                                                        <ListGroup.Item>Maintenance applications with Angular JS / ReactJS / Vue JS / Javascript / Jquery / Aspn.net</ListGroup.Item>
+                                                        <ListGroup.Item>Built UI using Boostrap 4,5 / Html5 / css. (Responsive)</ListGroup.Item>
+                                                        <ListGroup.Item>Call Rest API's - SOAP with Axios and others</ListGroup.Item>
+                                                        <ListGroup.Item>Create API Rest services in aspn.net</ListGroup.Item>
+                                                        <ListGroup.Item>Design Pattern MVC</ListGroup.Item>
+                                                        <ListGroup.Item>Version Control (Github / AzureDevops)</ListGroup.Item>
+                                                        <ListGroup.Item>Language Integrated Query (LINQ) features of C#</ListGroup.Item>
+                                                        <ListGroup.Item>Oauth 2.0 / Web Jason Tokens (JWT)</ListGroup.Item>
+                                                        <ListGroup.Item>Lead Projects following the next methologyes:</ListGroup.Item>
+                                                        <ListGroup.Item>Agile (SCRUM)</ListGroup.Item>
+                                                        <ListGroup.Item>BPM</ListGroup.Item>
+                                                        <ListGroup.Item>RUP</ListGroup.Item>
+                                                        <ListGroup.Item>Map processes in MX and US-Orlando</ListGroup.Item>
+                                                        <ListGroup.Item>SQL Server , Tables, Store Procedures, Functions, Triggers, Views</ListGroup.Item>
+                                                    </ListGroup>
+                                                </Accordion.Body>
+                                            </Accordion.Item>
+                                        </Accordion>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -61,13 +78,24 @@ function Experience() {
                                     <Col className="col-data-company" sm={8}>
 
                                         <h4>UNIVAR SOLUTIONS</h4>
-                                        <p>SharePoint Office 365 Developer LATAM (Mexico - Brasil)
-                                        My principal function was mapped and develop business process in Mexico and
-                                        Brazil using SharePoint and .Net
-                                        Support for the CONCUR in Mexico
-                                        SQL Server 2008 (Create Tables, Views, Triggers, Store Procedures, Function)
-                                        SOX internal controls monitoring
-                                            </p>
+                                        <Accordion>
+                                            <Accordion.Item eventKey="0">
+                                                <Accordion.Header>Main activites</Accordion.Header>
+                                                <Accordion.Body>
+
+                                                    <ListGroup variant="flush">
+                                                        <ListGroup.Item>SharePoint Office 365 Developer LATAM (Mexico - Brasil)</ListGroup.Item>
+                                                        <ListGroup.Item>Mapped and Develop business process in Mexico and Brazil using SharePoint and .Net</ListGroup.Item>
+                                                        <ListGroup.Item>BPM</ListGroup.Item>
+                                                        <ListGroup.Item>RUP</ListGroup.Item>
+                                                        <ListGroup.Item>ITIL</ListGroup.Item>
+                                                        <ListGroup.Item>Support for the CONCUR in Mexico</ListGroup.Item>
+                                                        <ListGroup.Item>SQL Server 2008 (Create Tables, Views, Triggers, Store Procedures, Function)</ListGroup.Item>
+                                                        <ListGroup.Item>SOX internal controls monitoring</ListGroup.Item>
+                                                    </ListGroup>
+                                                </Accordion.Body>
+                                            </Accordion.Item>
+                                        </Accordion>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -90,16 +118,25 @@ function Experience() {
                                     <Col className="col-data-company" sm={8}>
 
 
-                                    <h4>TEVA PHARMECEUTICALS</h4>
-                                        <p>Direct software design
-                                        Create a client-server aplication web flow application (Workflow), on the increase /
-                                        Transfer Approval process budget them.
-                                        Front-end: HTML5/ CSS / Boostrap / JavaScript / Ajax
+                                        <h4>TEVA PHARMECEUTICALS</h4>
 
-                                        Audit process
-                                
+                                        <Accordion>
+                                            <Accordion.Item eventKey="0">
+                                                <Accordion.Header>Main activites</Accordion.Header>
+                                                <Accordion.Body>
 
-                                            </p>
+
+                                                    <ListGroup variant="flush">
+                                                        <ListGroup.Item>Built new applications using Javascript / Jquery / PHP</ListGroup.Item>
+                                                        <ListGroup.Item>Built UI using Boostrap 4,5 / Html5 / css. (Responsive)</ListGroup.Item>
+                                                        <ListGroup.Item>Call Rest API's - SOAP with Axios and others</ListGroup.Item>
+                                                        <ListGroup.Item>Create API Rest services in aspn.net</ListGroup.Item>
+                                                    </ListGroup>
+                                                </Accordion.Body>
+                                            </Accordion.Item>
+                                        </Accordion>
+
+
                                     </Col>
                                 </Row>
                             </Card.Body>

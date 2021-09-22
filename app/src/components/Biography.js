@@ -19,11 +19,11 @@ function Biography() {
                         <div className='nav-social'>
 
                             <Badge pill className="icon-social">
-                                <FaLinkedin className="fasocial" />
+                                <a className="a-icon" href="https://www.linkedin.com/in/christopher-rivadeneyra-111735ba/" target="_blank" rel="noreferrer"><FaLinkedin className="fasocial"/></a>
                             </Badge>{' '}
 
                             <Badge pill className="icon-social">
-                                <FaGithub className="fasocial" />
+                                <a  className="a-icon" href="https://github.com/ChrisRivz" target="_blank" rel="noreferrer"><FaGithub className="fasocial" /></a>
                             </Badge>{' '}
 
                             <div className="div-profile">

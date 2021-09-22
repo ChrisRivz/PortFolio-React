@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Container, Row, Col, Image, Button } from 'react-bootstrap'
 import Avatar from '../images/Avatar.jpg'
+import CV from '../documents/CHRISTOPHER RIVADENEYRA CV.pdf'
 import '../styles/profile.css'
 
 function Home() {
@@ -31,7 +32,8 @@ function Home() {
                             I can visually express my ideas and make people feel a certain way is incredible. I always try
             to find a connection between me and the people that use my software.</p>
 
-                            <Button variant="primary">Download CV</Button>
+                            
+                            <Button variant="primary"><a className="a-cv" href={CV} download>Download CV</a></Button>
 
                         </div>
                     </Col>

@@ -88,7 +88,7 @@ body{
 }
 .image-profile{
 
-    width: 30rem;
+    width: 100%;
 
 }
 
@@ -110,3 +110,12 @@ body{
 
 }
 
+.a-cv, .a-icon{
+
+    color: white !important;
+    text-decoration: unset;
+}
+.a-cv:hover{
+
+    color: black !important;
+}

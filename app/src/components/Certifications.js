@@ -17,7 +17,7 @@ function Certificates() {
                 <h4>Posgrads & Certifications </h4>
 
                 <Row className="Row-certifications">
-                    <Col>
+                    <Col className="col-certification">
                         <Card className="card-certification">
 
                             <Card.Body className="card-boy-certification">
@@ -33,7 +33,7 @@ function Certificates() {
                     </Col>
 
 
-                    <Col>
+                    <Col className="col-certification">
                         <Card className="card-certification">
 
                             <Card.Body className="card-boy-certifications">
@@ -48,7 +48,7 @@ function Certificates() {
                         </Card>
                     </Col>
 
-                    <Col>
+                    <Col className="col-certification">
                         <Card className="card-certification">
 
 
