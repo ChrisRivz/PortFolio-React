@@ -27,7 +27,6 @@ body{
 .Container-certifications, .Container-experience, .Container-portfolio{
 
     padding-top: 3rem;
-    padding: 5rem !important;
 }
 
 .Container-home, .Container-profile, .Container-certifications, .Container-experience{
@@ -42,7 +41,7 @@ body{
 
 .Home-info, .Biography-info{
 
-    padding: 5rem;
+    padding: 1rem;
 }
 
 .Home-info h4{

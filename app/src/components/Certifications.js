@@ -11,11 +11,8 @@ function Certificates() {
     return (
 
         <div className="Certificates-section">
-
             <Container className="Container-certifications">
-
                 <h4>Posgrads & Certifications </h4>
-
                 <Row className="Row-certifications">
                     <Col className="col-certification">
                         <Card className="card-certification">
@@ -31,8 +28,6 @@ function Certificates() {
 
                         </Card>
                     </Col>
-
-
                     <Col className="col-certification">
                         <Card className="card-certification">
 
@@ -47,7 +42,6 @@ function Certificates() {
 
                         </Card>
                     </Col>
-
                     <Col className="col-certification">
                         <Card className="card-certification">
 
@@ -62,11 +56,9 @@ function Certificates() {
                             </Card.Body>
                         </Card>
                     </Col>
-
                 </Row>
-
-
-            </Container> </div>
+            </Container> 
+            </div>
     )
 
 };

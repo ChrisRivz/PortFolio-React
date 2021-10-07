@@ -19,7 +19,7 @@ function Home() {
                 </Nav.Item>
             </Nav>
 
-            <Container className="Container-home">
+            <Container className="Container-home" fluid>
                 <Row>
                     <Col>
                         <div className="Home-info">

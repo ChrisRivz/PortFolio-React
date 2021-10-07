@@ -11,7 +11,7 @@ function Biography() {
 
         <div className="Biography-section">
 
-            <Container className="Container-profile">
+            <Container className="Container-profile" fluid>
                 <Row>
                     <Col className="col-image-2">
                         <Image src={Avatar} roundedCircle className="image-profile" />
