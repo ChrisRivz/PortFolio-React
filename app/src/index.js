@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Index from './components/Index'
+import App from './components/App'
 
 import 'bootstrap/dist/css/bootstrap.css'
 
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Index/>, container);
+ReactDOM.render(<App/>, container);
 

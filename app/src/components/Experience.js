@@ -38,20 +38,21 @@ function Experience() {
                                                 <Accordion.Body>
 
                                                     <ListGroup variant="flush">
-                                                        <ListGroup.Item>Built new applications using Angular JS / React JS / VueJS</ListGroup.Item>
-                                                        <ListGroup.Item>Maintenance applications with Angular JS / ReactJS / Vue JS / Javascript / Jquery / Aspn.net</ListGroup.Item>
-                                                        <ListGroup.Item>Built UI using Boostrap 4,5 / Html5 / css. (Responsive)</ListGroup.Item>
+                                                        <ListGroup.Item>Built new applications using AngularJS(v1.2.9) / ReactJS(17.0.2) / VueJS</ListGroup.Item>
+                                                        <ListGroup.Item>Maintenance applications with AngularJS (vAngularJS v1.2.9, v.9.2) / ReactJS(17.0.2)/ VueJS / Javascript / Jquery / Aspn.net</ListGroup.Item>
+                                                        <ListGroup.Item>Built UI using Boostrap 4,5/ Tailwind / Html5 / css. (Responsive)</ListGroup.Item>
                                                         <ListGroup.Item>Call Rest API's - SOAP with Axios and others</ListGroup.Item>
                                                         <ListGroup.Item>Create API Rest services in aspn.net</ListGroup.Item>
-                                                        <ListGroup.Item>Design Pattern MVC</ListGroup.Item>
+                                                        <ListGroup.Item>Design Pattern MVC (Model, View, Controller)</ListGroup.Item>
+                                                        <ListGroup.Item>Design Pattern SPA (Single Page Aplication)</ListGroup.Item>
                                                         <ListGroup.Item>Version Control (Github / AzureDevops)</ListGroup.Item>
                                                         <ListGroup.Item>Language Integrated Query (LINQ) features of C#</ListGroup.Item>
                                                         <ListGroup.Item>Oauth 2.0 / Web Jason Tokens (JWT)</ListGroup.Item>
                                                         <ListGroup.Item>Lead Projects following the next methologyes:</ListGroup.Item>
                                                         <ListGroup.Item>Agile (SCRUM)</ListGroup.Item>
-                                                        <ListGroup.Item>BPM</ListGroup.Item>
-                                                        <ListGroup.Item>RUP</ListGroup.Item>
-                                                        <ListGroup.Item>Map processes in MX and US-Orlando</ListGroup.Item>
+                                                        <ListGroup.Item>BPM (Bussiness Process Managment)</ListGroup.Item>
+                                                        <ListGroup.Item>RUP (Rational Unified Process)</ListGroup.Item>
+                                                        <ListGroup.Item>Map processes in Mexico and US-Orlando</ListGroup.Item>
                                                         <ListGroup.Item>SQL Server , Tables, Store Procedures, Functions, Triggers, Views</ListGroup.Item>
                                                     </ListGroup>
                                                 </Accordion.Body>

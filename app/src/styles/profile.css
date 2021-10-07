@@ -119,3 +119,36 @@ body{
 
     color: black !important;
 }
+
+.section-phrase{
+
+    padding-top: 3rem;
+}
+
+.about-me-initial-date{
+
+    font-size: 15px !important;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@media (min-width: 375px) { 
+
+    .Biography-info, .Home-info, .Container-certifications, .Container-experience, .Container-portfolio{
+
+        padding: 1rem !important;
+    }
+    .col-image-2{
+        padding: 3rem !important;
+    }
+}
+
+@media (min-width: 414px) and (max-height: 736px) {
+    .Biography-info, .Home-info, .Container-certifications, .Container-experience, .Container-portfolio{
+
+        padding: 1rem !important;
+    }
+    .col-image-2{
+        padding: 3rem !important;
+    }
+}

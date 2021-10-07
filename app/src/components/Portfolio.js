@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
-import MovieProject from '../images/MoviesProject.png'
-import PlatziProject from '../images/PlatziProject.png'
+import MovieProject from '../images/MoviesProject.png';
+import PlatziProject from '../images/PlatziProject.png';
+import Rick_and_Morty from '../images/RickMorty.png';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -18,18 +19,23 @@ function srcset(image, width, height, rows = 1, cols = 1) {
 }
 
 const itemData = [
+   
     {
-        img: MovieProject,
-        title: 'Cinema app project with Vue.js',
+        img: Rick_and_Morty,
+        title: 'SPA using Rick and Morty API and React Hooks',
         author: 'Christopher Rivadeneyra',
         featured: true
-    },
+    }, 
     {
         img: PlatziProject,
         title: 'Platform to track the attendees with React.js',
         author: 'Christopher Rivadeneyra',
     },
-    
+    {
+        img: MovieProject,
+        title: 'Cinema app project with Vue.js',
+        author: 'Christopher Rivadeneyra',
+    } 
 ];
 
 function Portfolio() {
