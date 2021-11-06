@@ -10,10 +10,9 @@ function Biography() {
     return (
 
         <div className="Biography-section">
-
             <Container className="Container-profile" fluid>
                 <Row>
-                    <Col className="col-image-2">
+                    <Col className="col-image-2" sm={12} md={6} lg={6}>
                         <Image src={Avatar} roundedCircle className="image-profile" />
                         <br />
                         <div className='nav-social'>
@@ -37,7 +36,7 @@ function Biography() {
 
                         </div>
                     </Col>
-                    <Col>
+                    <Col sm={12} md={6} lg={6}>
 
                     <div className="Biography-info">
 

@@ -1,0 +1,57 @@
+.container-comments{
+    background-color: whitesmoke;
+}
+
+.header-row{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.container-comments-child{
+    
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.container-comments-child .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Avatar{
+    width: 10rem;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+.label-mandatory{
+     color: red;
+     font-weight: bold;
+     font-size: smaller;
+}
+
+.button-save {
+    margin: 0 auto !important;
+    text-align: center;
+    width: 50% !important;
+    cursor: pointer;
+}
+
+.section-button-save{
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+.Spinner-save{
+    padding-left: 1rem;
+}
+.alert-title{
+    font-size: smaller !important;
+}
+
+.file {
+    opacity: 0;
+    width: 1rem !important;
+    height: 1rem;
+    position: absolute;
+}

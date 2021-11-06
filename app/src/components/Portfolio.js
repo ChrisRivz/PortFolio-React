@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap'
 import MovieProject from '../images/MoviesProject.png';
 import PlatziProject from '../images/PlatziProject.png';
 import Rick_and_Morty from '../images/RickMorty.png';
+import Login from '../images/Login.png';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -19,24 +20,42 @@ function srcset(image, width, height, rows = 1, cols = 1) {
 }
 
 const itemData = [
-   
     {
         img: Rick_and_Morty,
         title: 'SPA using Rick and Morty API and React Hooks',
         author: 'Christopher Rivadeneyra',
+        src: 'https://chrisrivz.com/PortFolio/RickandMorty/',
         featured: true
     }, 
     {
         img: PlatziProject,
         title: 'Platform to track the attendees with React.js',
+        src: 'https://chrisrivz.com/PortFolio/RickandMorty/',
         author: 'Christopher Rivadeneyra',
     },
     {
         img: MovieProject,
         title: 'Cinema app project with Vue.js',
+        src: 'https://chrisrivz.com/PortFolio/RickandMorty/',
         author: 'Christopher Rivadeneyra',
-    } 
+    },
+    {
+        img: Login,
+        title: 'SPA using https://reqres.in/ API and React Hooks',
+        author: 'Christopher Rivadeneyra',
+        src: 'https://chrisrivz.com/PortFolio/LoginReact',
+    },
+    {
+        img: MovieProject,
+        title: 'Cinema app project with Vue.js',
+        src: 'https://chrisrivz.com/PortFolio/RickandMorty/',
+        author: 'Christopher Rivadeneyra',
+    }
 ];
+
+const handleClick = item => {
+    window.open(item.src, "_blank")
+}
 
 function Portfolio() {
 
@@ -65,6 +84,8 @@ function Portfolio() {
                                     {...srcset(item.img, 250, 200, rows, cols)}
                                     alt={item.title}
                                     loading="lazy"
+                                    src={item.img}
+                                    target="_blanck"
                                 />
                                 <ImageListItemBar
                                     sx={{
@@ -78,6 +99,7 @@ function Portfolio() {
                                         <IconButton
                                             sx={{ color: 'white' }}
                                             aria-label={`star ${item.title}`}
+                                            onClick={() => handleClick(item)}
                                         >
                                             <StarBorderIcon />
                                         </IconButton>

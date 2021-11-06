@@ -21,7 +21,7 @@ function Home() {
 
             <Container className="Container-home" fluid>
                 <Row>
-                    <Col>
+                    <Col sm={12} md={6} lg={6}>
                         <div className="Home-info">
 
                             <p className="about-me-initial">Hello!, My name is</p>
@@ -37,7 +37,7 @@ function Home() {
 
                         </div>
                     </Col>
-                    <Col className="col-image">
+                    <Col className="col-image" sm={12} md={6} lg={6}>
                         <Image src={Avatar} roundedCircle className="image-profile"></Image>
                         <Container className="section-phrase">
 
