@@ -5,6 +5,7 @@ import axios from 'axios'
 import Avatar_img from '../images/Avatar-2.jpg'
 import Avatar_img_2 from '../images/Avatar.jpg'
 import Avatar from '@mui/material/Avatar';
+import CommentsAvatars from './CommentsAvatars'
 import '../styles/CommentsForm.css'
 
 async function axios_savecomment(data) {
@@ -69,6 +70,7 @@ const CommentsForm = () => {
         reader.readAsDataURL(e.target.files[0]);
     }
 
+
     return (
         <div className="container-comments">
             <Row className="header-row">
@@ -94,16 +96,14 @@ const CommentsForm = () => {
                         }
                         <Form onSubmit={handleSubmit(onSubmit)}>
                             <Row>
-                                <Col md>
-                                    <Avatar
-                                        alt="Avatar"
-                                        src={avatar_2}
-                                        sx={{ width: 100, height: 100 }}
-                                    />
-
-                                </Col>
-
-                                <Col md>
+                                <Col md={2}>
+                                    <Container>
+                                        <Avatar
+                                            alt="Avatar"
+                                            src={avatar_2}
+                                            sx={{ width: 100, height: 100 }}
+                                        />
+                                    </Container>
                                     <Form.Group className="mb-3" controlId="formAvatar">
 
                                         <Form.Label>Change Avatar</Form.Label>
@@ -111,6 +111,9 @@ const CommentsForm = () => {
                                         {errors.Avatar?.type === 'required' && <span className="label-mandatory">Avatar is required</span>}
 
                                     </Form.Group>
+                                </Col>
+                                <Col md={10}>
+                                    <CommentsAvatars />
                                 </Col>
                             </Row>
 

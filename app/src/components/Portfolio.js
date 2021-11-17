@@ -5,6 +5,7 @@ import MovieProject from '../images/MoviesProject.png';
 import PlatziProject from '../images/PlatziProject.png';
 import Rick_and_Morty from '../images/RickMorty.png';
 import Login from '../images/Login.png';
+import HarryPotter from '../images/HarryPotter.png';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -40,16 +41,16 @@ const itemData = [
         author: 'Christopher Rivadeneyra',
     },
     {
-        img: Login,
-        title: 'SPA using https://reqres.in/ API and React Hooks',
+        img: HarryPotter,
+        title: 'SPA using API Harry Potter, and React JS (Hooks)',
+        src: 'https://chrisrivz.com/PortFolio/HarryPotter/',
         author: 'Christopher Rivadeneyra',
-        src: 'https://chrisrivz.com/PortFolio/LoginReact',
     },
     {
-        img: MovieProject,
-        title: 'Cinema app project with Vue.js',
-        src: 'https://chrisrivz.com/PortFolio/RickandMorty/',
+        img: Login,
+        title: 'SPA using https://reqres.in/ API and React JS (Hooks)',
         author: 'Christopher Rivadeneyra',
+        src: 'https://chrisrivz.com/PortFolio/LoginReact',
     }
 ];
 

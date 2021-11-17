@@ -1,0 +1,50 @@
+[
+    {
+        "ID": 1,
+        "SRC": "/images/Avatars/Avatar-1.png",
+        "Name": "Avatar_1"
+    },
+    {
+        "ID": 2,
+        "SRC": "/images/Avatars/Avatar-2.png",
+        "Name": "Avatar_2"
+    },
+    {
+        "ID": 3,
+        "SRC": "/images/Avatars/Avatar-3.png",
+        "Name": "Avatar_3"
+    }
+    ,
+    {
+        "ID": 4,
+        "SRC": "/images/Avatars/Avatar-4.png",
+        "Name": "Avatar_4"
+    }
+    ,
+    {
+        "ID": 5,
+        "SRC": "/images/Avatars/Avatar-5.png",
+        "Name": "Avatar_5"
+    }
+    ,
+    {
+        "ID": 6,
+        "SRC": "/images/Avatars/Avatar-6.png",
+        "Name": "Avatar_6"
+    }
+    ,
+    {
+        "ID": 7,
+        "SRC": "/images/Avatars/Avatar-7.png",
+        "Name": "Avatar_7"
+    }
+    ,
+    {
+        "ID": 8,
+        "SRC": "/images/Avatars/Avatar-8.png",
+        "Name": "Avatar_8"
+    }
+
+
+]
+
